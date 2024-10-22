@@ -1,0 +1,87 @@
+:root {
+    --dark-blue: #240750;
+    --mid-blue: #577B8D;
+    --mint: #97FEED;
+}
+
+html, body, main {
+    margin: 0;
+    padding: 0;
+    font-size: 110%;
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+main {
+    display: grid;
+    flex-flow: row wrap;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero-title {
+    text-align: center;
+}
+
+.palindrome-checker-box {
+    max-width: 20rem;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem 0.5rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: var(--dark-blue);
+    border-radius: 15px;
+}
+
+label {
+    min-width: 100%;
+    text-align: center;
+}
+
+input,
+button {
+    font: inherit;
+}
+
+.text-input {
+    min-width: 67%;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    border-bottom: 2px solid var(--dark-blue);
+    background-color: transparent;
+}
+
+.check-btn {
+    min-width: 25%;
+    padding: 0.3em 1em;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 2px solid var(--dark-blue);
+    border-radius: 15px;
+    background-color: white;
+    color: var(--dark-blue);
+    cursor: pointer;
+}
+
+.side-note-box {
+    max-width: 20rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--mid-blue);
+    border-radius: 15px;
+}
+
+.side-note {
+    display: flex;
+}
+
+.bold {
+    font-weight: 700;
+}
